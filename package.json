@@ -28,7 +28,7 @@
   },
   "lint-staged": {
     "*.{js}": [
-      "eslint --cache --fix --ext .js ."
+      "eslint --fix --ext .js ."
     ]
   }
 }
