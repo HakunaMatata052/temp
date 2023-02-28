@@ -1,0 +1,28 @@
+{
+  "name": "temp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "a.js",
+  "type":"commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --fix --ext .js",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HakunaMatata052/temp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HakunaMatata052/temp/issues"
+  },
+  "homepage": "https://github.com/HakunaMatata052/temp#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.35.0",
+    "husky": "^8.0.0"
+  }
+}
