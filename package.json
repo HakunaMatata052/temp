@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "a.js",
-  "type":"commonjs",
+  "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint . --ext .js",
+    "fix": "lint-staged",
     "prepare": "husky install"
   },
   "repository": {
@@ -20,9 +21,14 @@
     "url": "https://github.com/HakunaMatata052/temp/issues"
   },
   "homepage": "https://github.com/HakunaMatata052/temp#readme",
-  "dependencies": {},
   "devDependencies": {
     "eslint": "^8.35.0",
-    "husky": "^8.0.0"
+    "husky": "^8.0.0",
+    "lint-staged": "^13.1.2"
+  },
+  "lint-staged": {
+    "*.{js}": [
+      "eslint --cache --fix --ext .js ."
+    ]
   }
 }
