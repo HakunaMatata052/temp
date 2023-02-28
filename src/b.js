@@ -1,4 +1,4 @@
 console.log(222)
 console.log(333)
 
-console
+console.log(11221)
